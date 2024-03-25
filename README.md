@@ -20,6 +20,12 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Run python script when the container launches
 CMD ["python", "./main.py"]
 
+# Run the following command to build the image 
+docker build -t AIQ
+# Run Docker compose yaml file and run in the bcakground 
+Docker compoes up -d 
+
+####################################################################################
 after that we'll right a docker-compose.ymal file which will setup our postgre enviroment to store data from API 
 All credentials are provided here which we will use to manage our database  
 
