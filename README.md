@@ -26,6 +26,8 @@ docker build -t AIQ
 Docker compoes up -d 
 
 ####################################################################################
+
+# Compose yaml 
 after that we'll right a docker-compose.ymal file which will setup our postgre enviroment to store data from API 
 All credentials are provided here which we will use to manage our database  
 
