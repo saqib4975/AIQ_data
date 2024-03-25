@@ -32,4 +32,22 @@ after that we'll right a docker-compose.ymal file which will setup our postgre e
 All credentials are provided here which we will use to manage our database  
 
 
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: my_postgres_db
+    environment:
+      POSTGRES_DB: sales_db
+      POSTGRES_USER: postgres_user
+      POSTGRES_PASSWORD: password123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+
 
