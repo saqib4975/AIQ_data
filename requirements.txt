@@ -1,0 +1,7 @@
+pandas
+requests
+psycopg2
+csv
+requests
+json
+urllib.parse import urlencode
