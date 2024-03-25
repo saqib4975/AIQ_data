@@ -1,3 +1,7 @@
+
+![architecture](https://github.com/saqib4975/AIQ_data/assets/146154778/c9498847-ef8b-49f8-95e8-8dfb3228eff7)
+
+
 # Challange_DE
 first let set up the docker file where all our depencies will code we will use Pyhton 3.9 
 
